@@ -1,0 +1,30 @@
+
+1.
+Student classi yaradin
+
+-Exams -imtahan adi ve imtahan qiymetlerinden ibaret collection-dir(dictionary<string ,int>)
+-CalcAvgPoint()-studentin imtahanlarinin ortalama qiymetini hesablayib qaytaran metoddur
+
+Userden imtahanlarin sayini daxil edin.
+
+PS:imtahan adi eyni ola bilmez ve bosluq ola bilmez
+Imtahan bali 0-100 araliginda olmalidir
+
+
+
+Task - 2
+Movie class
+Name
+Director
+Genre (detective,drama,horror)
+
+IParkCinemaManager interface
+
+Movie - Movie list
+Add() - gonderilimis Movie obyektini liste elave edir ( eyni adda yalniz bir Movie ola biler, eyni adli Movie ikinci defe elave olunmaga calisilsa SameMoviealreadyAddedExpection qaytarir)
+ShowInfo() - gonderilmis Movie adina esasen Movie obyektini geri qaytarsin (eger bu adda Movie obyekti tapilmasa geriya MovieNotFoundException qayarsin)
+Search() - gonderilmis axtaris value-na esasen sihayidaki Movie obyektlerini list olaraq geri qaytarsin
+Filter() - director,genre value-suna extaris edib tapilan Movie -lari list olaraq geri qaytarsin
+
+
+
